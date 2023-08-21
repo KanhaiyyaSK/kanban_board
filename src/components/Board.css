@@ -1,0 +1,24 @@
+/* Board.css */
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f7f8f9;
+  /* border-radius: 8px; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Board.css */
+.options {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

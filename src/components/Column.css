@@ -1,0 +1,25 @@
+.column {
+  flex: 1;
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  min-width: 250px;
+  background-color: #f7f8f9;
+}
+
+.column-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: start;
+  text-align: center;
+}
+.column-title,
+h3 {
+  margin-right: 0.2rem;
+}
+
+.column-title > span {
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+  font-size: 1.5rem;
+}
